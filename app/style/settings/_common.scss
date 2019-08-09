@@ -11,10 +11,12 @@ html {
 body {
     font-family: 'PT Sans', sans-serif;
     font-size: 14px;
+    -webkit-font-smoothing: antialiased;
     overflow-x: hidden;
 }
 
 img {
+    display: block;
     max-width: 100%;
 }
 
@@ -23,7 +25,7 @@ svg {
 }
 
 .container {
-    width: $container-width;
+    max-width: $container-width;
     margin: 0 auto;
 
     @include resolution(1219) {
