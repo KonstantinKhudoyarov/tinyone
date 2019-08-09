@@ -1,0 +1,12 @@
+// libs
+@import 'libs/_reset';
+@import 'libs/_slick';
+@import 'libs/_slick-theme.scss';
+
+// settings
+@import "settings/_vars";
+@import "settings/_mixins";
+@import "settings/_common";
+
+// components
+@import '../components/intro/intro';
